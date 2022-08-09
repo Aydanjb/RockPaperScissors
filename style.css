@@ -47,17 +47,7 @@ h1 {
     width: 160px;
 }
 
-.score {
+.score, .result {
     display: flex;
     justify-content: center;
-}
-
-.start {
-    display: inline-block;
-    font-family: monospace;
-    font-weight: 400;
-    background-color: #000000;
-    border: 2px solid #ffffff;
-    padding: 8px;
-    color: white;
 }
