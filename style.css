@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+h1 {
+    color: white;
+    font-family: monospace;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.rock {
+    margin-right: 16px;
+    height: 160px;
+    width: 160px;
+}
+
+.paper {
+    height: 160px;
+    width: 160px;
+}
+
+.scissors {
+    margin-left: 16px;
+    height: 160px;
+    width: 160px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+}
+
+.start {
+    display: inline-block;
+    font-family: monospace;
+    font-weight: 400;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    padding: 8px;
+    color: white;
+}
